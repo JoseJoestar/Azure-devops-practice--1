@@ -1,0 +1,131 @@
+*{
+    border:0;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+nav{
+   
+      display:flex;
+      flex-direction: inherit;
+      justify-content: space-around;
+      align-items: center;
+      background-color: darkslategray;
+      min-height: 8vh;
+}
+
+.logo{
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size:14px;
+
+}
+
+body{
+    align-content: center;
+}
+
+.photo{
+    width: 300px;
+
+   max-width: 700px;
+    height: auto;
+}
+img{
+    width:inherit;
+}
+h3{
+   color:rgb(10, 177, 233); 
+}
+
+h2{
+    padding-top: 10px;
+}
+
+.navbar{
+    margin-bottom: 0;
+}
+/*.button {
+  transition-duration: 0.4s; /*this gives the button
+  animation between normal and hover state*/
+
+  /*max-width: 500px;
+  margin: auto; /*with this, the buttons themselves
+  will be moved to the center instead of just the text*/
+/*  background: white ;
+  color: grey;
+  padding: 5px;
+  display: inline-block;
+
+  &:hover {
+    background-color: greenyellow;
+    color: black;
+  }
+}*/
+#topintro{
+    text-align: center;
+    background:rgb(79, 146, 79);
+    color : lightgreen;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 55px;
+}
+
+
+.button{
+color:black;
+
+
+
+}
+
+#content{
+ padding:15px;
+
+}
+.footer{
+    background:rgb(167, 131, 13);
+   padding-left: 15px;
+   padding-right: 15px;
+    color:black;
+}
+.clear-me{
+    clear:both;
+}
+.foot{
+    color:black;
+}
+
+h1{
+    margin:0;
+    display:inline;
+}
+.subtext{
+    font-size: 15px;
+    color: grey;
+}
+
+.animatedintro{
+    animation: fadein 3s;
+}
+@keyframes fadein{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
